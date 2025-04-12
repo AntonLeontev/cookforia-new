@@ -1,0 +1,35 @@
+@use "fonts";
+
+@use "vendor/_normalize";
+@use "vendor/_reset";
+@use "vendor/swiper.min";
+
+@use "commons/_global";
+
+@use "components/_descriptor";
+@use "components/_nav";
+@use "components/_cards";
+@use "components/_socials";
+@use "components/_scroll-btn";
+@use "components/_calendar";
+@use "components/_header";
+@use "components/_footer";
+@use "components/_breadcrumbs";
+
+
+@use "modules/_motivation";
+@use "modules/_additions";
+@use "modules/_certificate";
+@use "modules/_chefs";
+@use "modules/_studios";
+@use "modules/_reviews";
+@use "modules/_partners";
+@use "modules/_faq";
+@use "modules/_menu-list";
+@use "modules/_events";
+@use "modules/_stages";
+@use "modules/_price";
+@use "modules/_gallery";
+@use "modules/_services";
+@use "modules/_certificates";
+@use "modules/_celebrate";
