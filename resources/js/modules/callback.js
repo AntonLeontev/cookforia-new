@@ -1,2 +1,4 @@
 const selectElement = document.getElementById('select-studio');
-const edd = easydropdown(selectElement);
+if (selectElement) {
+	const edd = easydropdown(selectElement);
+}

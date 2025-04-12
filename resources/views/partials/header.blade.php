@@ -1,4 +1,4 @@
-<header class="header js-header header--nobg">
+<header @class(['header', 'js-header', 'header--nobg' => Route::is('home')])>
     <div class="container">
         <div class="header__inner">
             <a class="header__logo" href="/">
@@ -12,7 +12,7 @@
                     <a href="#">Мастер-классы </a>
                 </li>
                 <li class="header__link">
-                    <a href="events.html">Мероприятия</a>
+                    <a href="{{ route('events') }}">Мероприятия</a>
                 </li>
                 <li class="header__link">
                     <a href="certificates.html">Сертификат</a>
