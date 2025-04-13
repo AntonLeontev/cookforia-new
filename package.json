@@ -17,6 +17,7 @@
     "dependencies": {
         "alpinejs": "^3.14.9",
         "easydropdown": "^4.2.0",
+        "js-datepicker": "^5.18.4",
         "swiper": "^11.2.6"
     }
 }

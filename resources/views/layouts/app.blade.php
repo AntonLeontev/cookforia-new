@@ -16,6 +16,10 @@
     {{-- <link href="css/style.min.css" type="text/css" rel="stylesheet">
     <script src="js/vendor.min.js" defer></script>
     <script src="js/app.min.js" defer></script> --}}
+
+	<style>
+		[x-cloak] { display: none !important; }
+	</style>
 </head>
 
 <body class="body">
@@ -29,7 +33,9 @@
 		@include('partials.footer')
 
         <button class="scroll-btn js-scrollUp" type="button">Наверх</button>
-        <button class="calendar js-calendar" type="button" aria-label="Записаться"></button>
+        
+		@include('partials.schedule')
+		@vite(['resources/css/schedule.css'])
     </div>
 </body>
 
