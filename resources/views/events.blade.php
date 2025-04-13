@@ -250,40 +250,9 @@
             </div>
         </div>
     </section>
-    <section class="section section--bg reviews">
-        <div class="container">
-            <h3 class="section-title">Отзывы о студии Cookforia </h3>
-            <div class="reviews__inner">
-                <div class="reviews__total">Все отзывы <span>5.0</span>
-                </div>
-                <a class="reviews__yandex" href="#">Карты 5.0 </a>
-                <a class="reviews__google" href="#">5.0 </a>
-                <a class="reviews__link link-btn" href="#">Оставить отзыв </a>
-                <div class="reviews__count">
-                    <p>5.0 из 5</p>
-                    <img src="{{ Vite::asset('resources/img/reviews/stars.svg') }}" alt="">
-                    <span>На основе 242 оценок</span>
-                </div>
-            </div>
-            <div class="reviews__slider swiper js-sliderReviews">
-                <ul class="reviews__list swiper-wrapper">
-                    <li class="reviews__item swiper-slide">
-                        <div class="reviews__address">Студия на ул. Московский проспект 183-185</div>
-                        <div class="reviews__media">
-                            <img src="{{ Vite::asset('resources/img/reviews/media1.png') }}" alt="">
-                        </div>
-                    </li>
-                    <li class="reviews__item swiper-slide">
-                        <div class="reviews__address">Студия на ул. Дыбенко, 8к1</div>
-                        <div class="reviews__media">
-                            <img src="{{ Vite::asset('resources/img/reviews/media2.png') }}" alt="">
-                        </div>
-                    </li>
-                </ul>
-                <div class="swiper-pagination-reviews swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
+    
+	@include('partials.reviews')
+
     <section class="section faq">
         <div class="container">
             <h4 class="section-title">Вопросы, которые нам часто задают</h4>

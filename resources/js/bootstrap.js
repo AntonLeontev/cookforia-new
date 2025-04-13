@@ -3,7 +3,7 @@ window.axios = axios;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-import Swiper from 'swiper';
+import Swiper from 'swiper/bundle';
 window.Swiper = Swiper;
 
 import easydropdown from 'easydropdown';
