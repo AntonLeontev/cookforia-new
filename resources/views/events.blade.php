@@ -3,16 +3,10 @@
 @section('title', 'Мероприятия')
 
 @section('content')
-    <div class="breadcrumbs">
-        <div class="container">
-            <ol class="breadcrumbs-list">
-                <li class="breadcrumb">
-                    <a href="/">Главная</a>
-                </li>
-                <li class="breadcrumb">Мероприятия</li>
-            </ol>
-        </div>
-    </div>
+    <x-breadcrumbs :links="[
+		'/' => 'Главная',
+		'#' => 'Мероприятия',
+	]" />
 
     <section class="descriptor">
         <div class="descriptor__img" inert>
