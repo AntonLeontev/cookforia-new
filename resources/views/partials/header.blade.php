@@ -15,7 +15,7 @@
                     <a href="{{ route('events') }}">Мероприятия</a>
                 </li>
                 <li class="header__link">
-                    <a href="certificates.html">Сертификат</a>
+                    <a href="{{ route('certificate') }}">Сертификат</a>
                 </li>
             </ul>
             <a class="header__phone" href="tel:+78126113908">
@@ -44,7 +44,7 @@
             <ul class="nav__items">
                 <li class="nav__item js-navItem">
                     <div class="nav__item-head">
-                        <a class="nav__link" href="events.html">Мероприятия</a>
+                        <a class="nav__link" href="{{ route('events') }}">Мероприятия</a>
                         <button class="nav__opener js-navToggle" type="button"
                             aria-label="Список мероприятий"></button>
                     </div>
@@ -122,7 +122,7 @@
                     <a class="nav__link" href="menu.html">Меню</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="certificates.html">Сертификаты</a>
+                    <a class="nav__link" href="{{ route('certificate') }}">Сертификаты</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="stocks.html">Акции</a>
