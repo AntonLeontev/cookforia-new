@@ -113,19 +113,19 @@
                     <a class="nav__link" href="#">Аренда студии</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="#">Рецепты</a>
+                    <a class="nav__link" href="{{ route('recipes') }}">Рецепты</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="#">Блог</a>
+                    <a class="nav__link" href="{{ route('blog') }}">Блог</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="menu.html">Меню</a>
+                    <a class="nav__link" href="{{ route('menu') }}">Меню</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="{{ route('certificate') }}">Сертификаты</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="stocks.html">Акции</a>
+                    <a class="nav__link" href="{{ route('stocks') }}">Акции</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="#">Контакты</a>

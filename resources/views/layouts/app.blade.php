@@ -13,9 +13,10 @@
 
 	@vite(['resources/scss/style.scss', 'resources/js/app.js'])
 
-    {{-- <link href="css/style.min.css" type="text/css" rel="stylesheet">
-    <script src="js/vendor.min.js" defer></script>
-    <script src="js/app.min.js" defer></script> --}}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 	<style>
 		[x-cloak] { display: none !important; }
@@ -25,6 +26,8 @@
 <body class="body">
     <div class="wrapper">
         @include('partials.header')
+
+		@yield('breadcrumbs')
 
         <main class="main">
 			@yield('content')

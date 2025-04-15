@@ -11,6 +11,7 @@ import './modules/filters';
 // import './modules/form';
 import './modules/nav';
 import './modules/popup';
+import './modules/sliderBlog';
 import './modules/sliderCard';
 import './modules/sliderCelebrate';
 import './modules/sliderEvents';

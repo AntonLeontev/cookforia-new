@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Кулинарная студия Cookforia')
+
 @section('content')
     <section class="descriptor">
         <div class="descriptor__img" inert>
