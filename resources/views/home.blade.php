@@ -27,7 +27,7 @@
                 <ul class="motivation__items">
                     <li class="motivation__item">
                         <div class="motivation__icon">
-                            <img src="{{ Vite::asset('resources//img/index/motivation1.png') }}" alt="">
+                            <img src="{{ Vite::asset('resources/img/index/motivation1.png') }}" alt="">
                         </div>
                         <div class="motivation__description">
                             <h5 class="motivation__name">Для любого повода</h5>
@@ -40,7 +40,7 @@
                     </li>
                     <li class="motivation__item">
                         <div class="motivation__icon">
-                            <img src="{{ Vite::asset('resources//img/index/motivation2.png') }}" alt="">
+                            <img src="{{ Vite::asset('resources/img/index/motivation2.png') }}" alt="">
                         </div>
                         <div class="motivation__description">
                             <h5 class="motivation__name">Большой выбор меню различных кухонь мира</h5>
@@ -49,7 +49,7 @@
                     </li>
                     <li class="motivation__item">
                         <div class="motivation__icon">
-                            <img src="{{ Vite::asset('resources//img/index/motivation3.png') }}" alt="">
+                            <img src="{{ Vite::asset('resources/img/index/motivation3.png') }}" alt="">
                         </div>
                         <div class="motivation__description">
                             <h5 class="motivation__name">От 2 до 60 человек</h5>
@@ -58,7 +58,7 @@
                     </li>
                     <li class="motivation__item">
                         <div class="motivation__icon">
-                            <img src="{{ Vite::asset('resources//img/index/motivation4.png') }}" alt="">
+                            <img src="{{ Vite::asset('resources/img/index/motivation4.png') }}" alt="">
                         </div>
                         <div class="motivation__description">
                             <h5 class="motivation__name">Дополнительные услуги на любой вкус</h5>
@@ -68,7 +68,7 @@
                     </li>
                     <li class="motivation__item">
                         <div class="motivation__icon">
-                            <img src="{{ Vite::asset('resources//img/index/motivation5.png') }}" alt="">
+                            <img src="{{ Vite::asset('resources/img/index/motivation5.png') }}" alt="">
                         </div>
                         <div class="motivation__description">
                             <h5 class="motivation__name">Клиентоориентированность во всем</h5>
@@ -80,7 +80,7 @@
                     </li>
                     <li class="motivation__item">
                         <div class="motivation__icon">
-                            <img src="{{ Vite::asset('resources//img/index/motivation6.png') }}" alt="">
+                            <img src="{{ Vite::asset('resources/img/index/motivation6.png') }}" alt="">
                         </div>
                         <div class="motivation__description">
                             <h5 class="motivation__name">3 кулинарные студии рядом с метро</h5>
