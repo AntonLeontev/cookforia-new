@@ -32,7 +32,7 @@
                     <a href="#" target="_blank" aria-label="vk"> </a>
                 </li>
             </ul>
-            <a class="header__callback" href="#">Обратный звонок </a>
+            <button class="header__callback js-popupOpen" type="button" @click="$dispatch('form-open')">Обратный звонок </button>
         </div>
     </div>
 </header>
